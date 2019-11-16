@@ -1,0 +1,32 @@
+{
+    "plugins": [
+        "@babel/plugin-proposal-optional-chaining",
+        [
+            "@babel/plugin-proposal-decorators",
+            {
+                "legacy": true
+            }
+        ],
+        [
+            "@babel/plugin-proposal-class-properties",
+            {
+                "loose": true
+            }
+        ],
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "api": "./imports/api",
+                    "components": "./client/components",
+                    "layouts": "./client/layouts",
+                    "styles": "./client/styles",
+                    "state": "./client/state",
+                    "views": "./client/views",
+                    "lib": "./client/lib",
+                    "server": "./server"
+                }
+            }
+        ]
+    ]
+}

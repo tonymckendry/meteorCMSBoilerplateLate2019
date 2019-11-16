@@ -1,0 +1,1 @@
+DEPLOY_HOSTNAME=us-east-1.galaxy-deploy.meteor.com meteor deploy alinestaging.meteorapp.com --owner alineapp --settings server/settings/staging.json
